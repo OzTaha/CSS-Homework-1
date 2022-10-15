@@ -148,7 +148,6 @@ button:hover {
 
 .gallery {
     display: flex;
-    display: inline-block;
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
