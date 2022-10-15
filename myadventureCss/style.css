@@ -149,26 +149,19 @@ button:hover {
 .gallery {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
-    text-align: center;
     align-items: center;
+    position: relative;
 }
 
 .g_p {
-    display: flex;
-    flex-direction: column;
-    font-weight: 575;
-    padding:20px 0 0 0;
-    position: absolute;
-    width: 100%;
+    flex: 10px;
+    width: 26%;
     align-items: center;
+    padding:20px 0 0 0;
+    text-align: justify;
+    position: relative;
 }
 
-.gallery_h2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
 
 /* gallery end */
 
@@ -177,6 +170,7 @@ button:hover {
     padding:40px 0;
     background-color: #292929;
     color:hsl(0, 0%, 100%);
+    width: 100%;
   }
   
   .footer-basic ul {
